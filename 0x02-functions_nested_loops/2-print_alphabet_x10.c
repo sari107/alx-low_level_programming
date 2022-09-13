@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10: the code area
- * Return: 0
+ * print_alphabet_x10 - the code area
+ * Return:0 - return 0 on success
  */
 void print_alphabet_x10(void)
 {
