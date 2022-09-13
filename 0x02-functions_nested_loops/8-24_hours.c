@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * jack_bauer - func
  * Return: 0 - on success
