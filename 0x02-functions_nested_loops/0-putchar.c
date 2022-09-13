@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
  * main - prints _putchar
  * Return - alway 0 (success)
