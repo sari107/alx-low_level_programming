@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 /**
  * print_to_98 - fun
  * @n : number to start form
@@ -7,29 +7,17 @@
  */
 void print_to_98(int n)
 {
-	int i = 0;
+	while (n < 98)
+	{
+		printf("%i, ", n);
+		n++;
+	}
+	while (n > 98)
+	{
+		printf("%i, ", n);
+		n++;
+	}
 
-	if (n > 98)
-	{
-		for (i = n; i >= 98; i--)
-		{
-			if (i != n)
-			{
-				printf(", ");
-			}
-			printf("%d", i);
-		}
-	}
-	else
-	{
-		for (i = n; i <= 98; i++)
-		{
-			if (i != n)
-			{
-				printf(", ");
-			}
-			printf("%d", i);
-		}
-	}
+	printf("98");
 	putchar('\n');
 }
