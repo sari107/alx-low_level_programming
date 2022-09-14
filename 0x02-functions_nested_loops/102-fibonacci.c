@@ -2,7 +2,7 @@
 /**
  * main - main func
  * Description: fibonacci numbers
- * followed by new line 
+ * followed by new line
  * Return: 0
  */
 int main(void)
