@@ -16,7 +16,7 @@ void print_times_table(int n)
 		for (j = 0; j <= n; j++)
 		{
 			rep = i * j;
-			if (b == 0)
+			if (j == 0)
 				_putchar('0' + rep);
 			else if (rep < 10)
 			{
@@ -43,6 +43,6 @@ void print_times_table(int n)
 			}
 		}
 		_putchar('\n');
-		a++;
+		i++;
 	}
 }
