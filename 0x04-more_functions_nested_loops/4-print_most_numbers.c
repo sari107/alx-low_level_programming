@@ -2,7 +2,7 @@
 /**
  * print_most_number - func
  * Descriptpion: Print number with _putchar
- * Return: 0
+ * Return: void
  */
 void print_most_numbers(void)
 {
