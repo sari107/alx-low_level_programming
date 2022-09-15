@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * print_most_number - func
+ * Descriptpion: Print number with _putchar
  * Return: 0
  */
 void print_most_numbers(void)
 {
-	char i = 0;
+	int i;
 
-	while (i <= 9)
+	for (i = '0'; i <= 9; i++)
 	{
-		if (i != 2 && i != 4)
-		{
-			_putchar('0' + i);
-		}
-		i++;
+		if (i == '2' || i == '4')
+			;
+		else
+			_putchar(i);
 	}
 	_putchar('\n');
 
