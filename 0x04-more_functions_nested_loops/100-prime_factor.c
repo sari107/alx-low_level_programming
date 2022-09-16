@@ -8,16 +8,17 @@
 
 int main(void)
 {
-	unsigned int long n = 612852475143, a = (int) sqrt(n);
+	long int number;
 
-	while (1)
+	number = 612852475143;
+
+	if (isPrime(number) == 1)
 	{
-		if (n % a == 0)
-		{
-			printf("%lu \n", n / a);
-			break;
-		}
-		a--;
+		printf("%ld\n", number);
+	}
+	else
+	{
+		printf("%ld\n", biggestFactor(number));
 	}
 	return (0);
 }
