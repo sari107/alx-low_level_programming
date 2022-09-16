@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - func
+ * Description: Prints diagonals
  * @size : integer type
  * Return:void
  */
