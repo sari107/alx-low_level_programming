@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_triangle - func
- * @size : type integer
+ * @size : integer type
  * Return:void
  */
-
 void print_triangle(int size)
 {
 	int i, j, k;
