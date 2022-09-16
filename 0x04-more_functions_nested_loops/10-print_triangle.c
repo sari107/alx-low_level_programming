@@ -1,33 +1,33 @@
 #include "main.h"
 
 /**
- * print_triangle - func
- * Description: Prints diagonals
+ * print_triangle - check for a digit
  * @size : integer type
  * Return:void
  */
 
 void print_triangle(int size)
 {
-	int i, j, k;
+	int i = 1, ii;
 
-	if (size <= 0)
+	while (i <= size && size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (i = 0; i <= size; i++)
+		ii = 0;
+		while (ii < size - i)
 		{
-			for (k = size - i; k >= 1; k--)
-			{
-				_putchar(' ');
-			}
-			for (j = 1; j <= i; j++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
+			_putchar(' ');
+			ii++;
 		}
+		ii = 0;
+		while (ii < i)
+		{
+			_putchar('#');
+			ii++;
+		}
+
+		_putchar('\n');
+		i++;
 	}
+	if (i == 1)
+		_putchar('\n');
 }
