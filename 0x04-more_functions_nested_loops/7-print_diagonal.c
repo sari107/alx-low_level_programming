@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - func
- * @n : number of \\ to be printed
+ * @n : number of \ to be printed
  * Return:void
  */
 
