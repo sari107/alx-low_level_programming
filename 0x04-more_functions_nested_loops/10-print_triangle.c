@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * print_triangle - func
  * Description: Prints diagonals
  * @size : integer type
  * Return:void
  */
+
 void print_triangle(int size)
 {
 	int i, j, k;
