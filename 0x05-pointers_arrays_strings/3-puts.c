@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- * -puts - func
+ * _puts - func
  *  @str - pointer
  *  Return: void
  */
