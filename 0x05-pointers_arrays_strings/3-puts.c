@@ -2,7 +2,7 @@
 
 /**
  * _puts - func
- *  @str - pointer
+ *  @str: pointer
  *  Return: void
  */
 
