@@ -1,10 +1,16 @@
 #include "main.h"
 /**
- * square root of numbers
+ * a function that returns square root of a number in recursion
  * Return
  */
 
-int _sqrt_recursion(int n)
+/**
+ * A function prints a squareroot
+ * int n
+ * return
+ */
+
+int _sqrt_recursion(int n) 
 {
 	if (n == 0 || n == 1)
 		return (n);
@@ -13,6 +19,7 @@ int _sqrt_recursion(int n)
 
 /**
  * evaluate the function
+ * int n, int x
  * return
  */
 
