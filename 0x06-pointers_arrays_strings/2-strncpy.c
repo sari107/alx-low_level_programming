@@ -16,5 +16,5 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	dist[n] ='\0';
 
-	return (dist);
+	return dist;
 }
