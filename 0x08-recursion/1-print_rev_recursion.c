@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - func
- * @s : pointer
+ * @s : string
  *
  * Return : On success 
  */
