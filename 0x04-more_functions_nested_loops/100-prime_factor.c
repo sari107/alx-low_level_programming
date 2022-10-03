@@ -7,18 +7,19 @@
 
 int main(void)
 {
-	long i, j;
+	long num = 612852475143;
+	long i = 2;
+	long j = 0;
 
-	i = 612852475143;
-
-	for (j = 2; i > j; j++)
+	while (num != 1)
 	{
-		while (i % j == 0)
+		if (num % i == 0)
 		{
-			i = i / j;
+			num = num / i;
+			j = i;
 		}
+		i += 1;
 	}
-	printf("%lu", y);
-	putchar('\n');
+	printf("%ld\n", larg_prim);
 	return (0);
 }
