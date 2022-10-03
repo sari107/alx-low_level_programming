@@ -20,6 +20,6 @@ int main(void)
 		}
 		i += 1;
 	}
-	printf("%ld\n", larg_prim);
+	printf("%ld\n", j);
 	return (0);
 }
