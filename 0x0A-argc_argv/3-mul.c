@@ -24,6 +24,7 @@ int main(int argc, char *argv)
 		while(i < argc)
 		{
 			multiply = multiply * atoi(argv[i]);
+			i++;
 		}
 		printf("%d\n", multiply);
 	}
