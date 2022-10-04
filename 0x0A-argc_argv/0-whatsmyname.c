@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 /**
  * main functin
  * @ argc, argv
@@ -7,11 +8,9 @@
 
 int main(int argc, char* argv[])
 {
-	for(int i = 0; i < argc; i++)
-	{
-		printf("%s", argv[i]);
-	}
-	printf("\n");
+ 	(void) argc;
 
-return 0;
+	printf("%s\n", argv[0]);
+
+return (0);
 }
