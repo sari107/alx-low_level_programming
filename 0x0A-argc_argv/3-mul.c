@@ -10,23 +10,19 @@
 
 int main(int argc, char *argv)
 {
-	int i = 1;
-	int multply = 1;
-
-	if(argc != 3)
+	if(argc == 3)
 	{
+
+	int a = atoi(argv[1]);
+	int b = atoi(argv[2]);
+
+	printf("%d\n", a*b);
+
+	return (0);
+
+	}
+
 		printf("Error\n");
 		return (1);
-	}
-
-	else
-	{
-		while(i < argc)
-		{
-			multiply = multiply * atoi(argv[i]);
-			i++;
-		}
-		printf("%d\n", multiply);
-	}
-	return (0);
+	
 }
