@@ -3,10 +3,10 @@
 #include "stdlib.h"
 #include "ctype.h"
 /**
- *
- *
- *
- *
+ *function to add
+ *@argc
+ *@argv
+ *return 1 if error
  */
 
 int main(int argc, char *argv[])
