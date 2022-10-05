@@ -5,6 +5,8 @@
 
 /**
  * main - function to add
+ * @argc: int
+ * @argv: list
  * Return: 0
  */
 
