@@ -2,23 +2,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
  * main - function to add
  * @argc: int
  * @argv: list
  * Return: 0
  */
-
-
 int main(int argc, char *argv[])
 {
-
 	int sum = 0;
 	
 	if (argc <= 1)
 	{
-		printf("0\n");
+		printf("%i\n", 0);
 	}
 
 	else
@@ -30,7 +26,6 @@ int main(int argc, char *argv[])
 			{
 				sum = sum + atoi(argv[i]);
 			}
-	
 			else
 			{
 				printf("Error\n");
@@ -40,7 +35,7 @@ int main(int argc, char *argv[])
 		}
 
 		printf("%i\n", sum);
-	
 	}
-      return (0);
+
+return (0);
 }
