@@ -8,34 +8,30 @@
  * @argv: list
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int sum = 0;
-	
+
 	if (argc < 1)
 	{
-		printf("%i\n", 0);
+		printf("%i\N", 0);
 	}
-
-	else
-	{
-
-		for (int i=1; i < argc; i++)
+	else{
+		for (int i = 1; i < argc; i++)
 		{
-			if (atoi(argv[i]) != 0)
+			if (atoi(argv[i] != 0))
 			{
 				sum = sum + atoi(argv[i]);
 			}
 			else
+
 			{
 				printf("Error\n");
 				return (1);
 			}
-	
 		}
-
 		printf("%i\n", sum);
 	}
-
-return (0);
+	return (0);
 }
