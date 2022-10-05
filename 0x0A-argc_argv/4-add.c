@@ -1,13 +1,13 @@
-#include "main.h"
-#include "stdio.h"
-#include "stdlib.h"
-#include "ctype.h"
+#include <main.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
 /**
- *function to add
- *@argc
- *@argv
- *return 1 if error
+ * main - function to add
+ * Return: 0
  */
+
 
 int main(int argc, char *argv[])
 {
