@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat -func
- * @dest : pointer
- * @src : pointer
+ * _strncat -concatenates strings
+ * @dest : copies to
+ * @src : copies from
+ * @n : number of character to be copied
  * Return :Void
  */
 
@@ -11,15 +12,21 @@ char *_strncat(char *dest, char *src, int n)
 
 {
 
-	int i =-1, j;
+	int i,j = 0;
 
-	for (j=0; dest[j] <= n; j++)
-
-		do{
-			i++;
-			dest[j] = src[i];
-			j++;
-		}while(src[i] != '\0');
+	while(*(dest + i) != '\0')
+	{
+		i++;
+	}
+		
+	while(*(src +j) != '\0' && j < n)
+	{
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
+	}
+	
+	*(dest + i) = '\0';
 
 	  return (dest);
 
