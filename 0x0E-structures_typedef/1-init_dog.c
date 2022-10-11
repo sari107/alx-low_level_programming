@@ -1,14 +1,13 @@
-
 #include "dog.h"
 #include "stdlib.h"
+#inlcude "stddef.h"
+
 /**
  * init_dog - initializa the structure
  * @name: pass from user
- * @owner:
- * @age:
- * @d
- *
- * Return: void
+ * @owner: Pointer
+ * @age: Age as float
+ * @d: pointer
  */
 
 
