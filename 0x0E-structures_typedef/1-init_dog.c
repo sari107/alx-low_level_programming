@@ -1,6 +1,6 @@
 
 #include "dog.h"
-#include "stdlib"
+#include "stdlib.h"
 /**
  * init_dog - initializa the structure
  * @name: pass from user
