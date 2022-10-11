@@ -1,4 +1,5 @@
 #include "main.h"
+#include "dog.h"
 /**
  * init_dog - initializa the structure
  * @name: pass from user
