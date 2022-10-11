@@ -2,13 +2,11 @@
 #include "stdlib.h"
 
 /**
- *
- *
- *
- *
- *
- *
- *
+ * new_dog - entry point
+ * @name: string from main
+ * @age: number form main
+ * @owner: string from main
+ * Return: dogg
  */
 
 int _strlen(char *str)
