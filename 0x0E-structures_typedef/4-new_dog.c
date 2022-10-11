@@ -6,6 +6,12 @@
  * @name: string from main
  * @age: number form main
  * @owner: string from main
+ * @dogg: string
+ * @str: pointer
+ * @dest: pointer
+ * @src: pointer
+ * _strlen: function
+ * _strcopy: function
  * Return: dogg
  */
 
