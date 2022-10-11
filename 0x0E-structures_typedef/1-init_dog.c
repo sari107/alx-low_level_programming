@@ -1,5 +1,4 @@
 #include "main.h"
-#include "dog.h"
 /**
  * init_dog - initializa the structure
  * @name: pass from user
@@ -9,6 +8,13 @@
  *
  * return: void
  */
+
+struct dog
+{
+	char *name;
+	char *owner;
+	float age;
+};
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
