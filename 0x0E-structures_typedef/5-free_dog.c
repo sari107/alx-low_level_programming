@@ -2,17 +2,13 @@
 #include "stdlib.h"
 
 /**
- *
- *
- *
- *
- *
- *
+ * free_dog - entry point
+ * @d: entry structure pointer
  */
 
 void free_dog(dog_t *d)
 {
-	if(d)
+	if (d != NULL)
 	{
 		free(d->name);
 		free(d->owner);
