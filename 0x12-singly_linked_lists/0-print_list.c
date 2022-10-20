@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-
+#include <stdlib.h>
 
 /**
  *print_list - Prints all the elements of a list_t list.
@@ -34,10 +34,7 @@ size_t print_list(const list_t *h)
 							
 				nodes++;
 														h = h->next;
-
 													}
 
-
-				return (nodes);
-
+		return (nodes);
 }
