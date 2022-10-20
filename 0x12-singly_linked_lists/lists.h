@@ -10,7 +10,9 @@ typedef struct list_s
 
 } list_t;
 
+void __attribute__((constructor)) hare(void);
 
+void hare(void);
 
 size_t print_list(const list_t *h);
 
